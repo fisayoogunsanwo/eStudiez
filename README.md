@@ -1,5 +1,9 @@
 # eStudiez
 A Study Portal
+<img width="1439" alt="Screenshot 2022-08-12 at 2 04 48 PM" src="https://user-images.githubusercontent.com/90068822/184457930-8085fc5b-0882-49f5-a803-30146c906f82.png">
+<img width="1440" alt="Screenshot 2022-08-12 at 2 05 05 PM" src="https://user-images.githubusercontent.com/90068822/184457944-c407215e-2d29-4174-b38d-a388c748d724.png">
+<img width="1429" alt="Screenshot 2022-08-12 at 2 05 54 PM" src="https://user-images.githubusercontent.com/90068822/184458001-0ed2258e-d7c8-4708-880d-a43f17f44431.png">
+
 
 eStudiez Website
 
