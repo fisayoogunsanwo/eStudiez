@@ -1,0 +1,46 @@
+<link rel="icon" href="./images/default2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Josefin+Sans:wght@300;400&family=Montserrat&family=Ubuntu&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="./css/welcome.css">
+<title>eStudiez</title>
+<body>
+   
+    <div class="container size">
+        <div class="logo"><img src="./images/cover.png" alt="eStudiez logo">
+        </div>
+
+        <div class="inside">
+            <div class="left-main">
+                <img src="./images/student.png" alt="">
+            </div>
+            <div class="right-main">
+               
+                <h1>Welcome To eStudiez Portal</h1>
+                <form class="choice-form">
+                    <p>Enter your name: <input type="text" ng-model="name" class="name" /></p>
+                    <p>What user category do you belong to?</p>
+                    <p><input type="radio" ng-model="same" name="poh" value="Teacher" class="dot" /> Teacher</p>
+                    <p><input type="radio" ng-model="same" name="poh" value="Student" class="dot" /> Student</p>
+                    <p><input type="radio" ng-model="same" name="poh" value="Parent_Guardian" class="dot" /> Parent /
+                        Guardian</p>
+                    <div class="btn">
+                        <button type="button" ng-click="shows()" class="get-started-btn">Get Started</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+
+        <hr>
+        <div class="base">
+            <p> &copy; eStudiez 2022</p>
+        </div>
+    </div>
+  
+
+    <script src="index.js"></script>
+</body>
+
+</html>
