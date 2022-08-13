@@ -8,10 +8,6 @@
 
 
 
-## This contain the following files
-> READMe file
-> project report
-> source code
 
 # Team members are 
 1.	Ogunsanwo Fisayo
