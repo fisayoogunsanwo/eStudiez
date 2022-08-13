@@ -1,4 +1,10 @@
-## Team unbeatable presents a simple eStudy Portal
+## Team unbeatable present you with simple estudy porta
+
+## This contain the following files
+> READMe file
+> project report
+> source code
+
 # Team members are 
 1.	Ogunsanwo Fisayo
 2.	Onwudiwe Kenneth
@@ -7,6 +13,8 @@
 
 ## Method of Installations
 copy this this url https://fisayoogunsanwo.github.io/eStudiez to see the web
+
+
 
 # eStudiez
 A Study Portal
