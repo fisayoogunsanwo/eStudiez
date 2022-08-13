@@ -1,4 +1,4 @@
-## Team unbeatable present you with simple estudy porta
+## Team unbeatable presents a simple eStudy Portal
 # Team members are 
 1.	Ogunsanwo Fisayo
 2.	Onwudiwe Kenneth
