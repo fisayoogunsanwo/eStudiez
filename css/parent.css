@@ -280,9 +280,7 @@ h3 {
  */
  /* Tablet View */
  @media only screen and (max-width: 769px) {
-    body{
-        background-color: #07154C;
-    }
+   
     h1,h2,h3 {
         line-height: 1.1;
         font-size: 1em;
