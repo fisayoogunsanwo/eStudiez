@@ -1,6 +1,6 @@
-## Team unbeatable present you with simple estudy porta
+## Team Unbeatable presents a simple eStudy Portal
 
-## This contain the following files
+## This contains the following files
 > 
 > 1. READMe file
 > 2. project report
