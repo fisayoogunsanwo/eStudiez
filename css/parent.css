@@ -188,14 +188,14 @@ h3 {
 
 
 /* Academic Progress */
-#academic-progress{
+#academic-progress {
     background-color: #E2E8EB;
     border-radius: 15px;
 }
 
 .sticker-img {
     width: 15%;
-    margin:1% auto;
+    margin: 1% auto;
 }
 
 .sticker {
@@ -242,7 +242,7 @@ h3 {
     border-radius: 15px;
     text-align: center;
     padding-bottom: 1%;
-    padding:1%;
+    padding: 1%;
 }
 
 /* Copyright */
@@ -278,44 +278,57 @@ h3 {
 481px — 768px: iPads, Tablets.
 769px — 1024px: Small screens, laptops.
  */
- /* Tablet View */
- @media only screen and (max-width: 769px) {
-   
-    h1,h2,h3 {
+/* Tablet View */
+@media only screen and (max-width: 769px) {
+
+    h1,
+    h2,
+    h3 {
         line-height: 1.1;
         font-size: 1em;
     }
-   
-    .navbar{
+
+    .navbar {
         display: none;
     }
+
     .logo img {
         width: 70px;
         border-radius: 10px;
     }
+
     .icon {
         font-size: 70px;
     }
-    .flexed{
+
+    .flexed {
         display: block;
     }
-    td,th,p,h4,.feedback-submit-btn {
+
+    td,
+    th,
+    p,
+    h4,
+    .feedback-submit-btn {
         font-size: 0.4em;
     }
-    #student-info, #your-marks {
+
+    #student-info,
+    #your-marks {
         background-color: #E2E8EB;
         border-radius: 5px;
     }
-    .flexed{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            gap:10px;
-            margin:0 auto;
-        
+
+    .flexed {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+
     }
-  
+
 }
 
 /* Mobile View */
@@ -324,31 +337,36 @@ h3 {
         line-height: 1.1;
         font-size: 1em;
     }
- .table{
-    width:95%;
- }
- .student-info-table{
-    width:75%;
- }
+
+    .table {
+        width: 95%;
+    }
+
+    .student-info-table {
+        width: 75%;
+    }
 
     .logo img {
         width: 35px;
         border-radius: 5px;
     }
 
-    .inside, .right-main {
+    .inside,
+    .right-main {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        gap:20px;
-        margin:0 auto;
+        gap: 20px;
+        margin: 0 auto;
     }
-    .helpline{
+
+    .helpline {
         display: none;
     }
-    .dotted-divide{
+
+    .dotted-divide {
         border-bottom: 2px dotted grey;
-   
+
     }
 
 

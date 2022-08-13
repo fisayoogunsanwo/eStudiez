@@ -171,20 +171,7 @@ input {
 
 
 
-/* .flexed {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  padding: 3% 5%;
-  margin: 2% auto 0;
-  gap: 3%;
-}
 
-.flexed>h3 {
-  width: 30%;
-} */
 
 .dotted-divide {
   border: 0;
@@ -264,7 +251,7 @@ input {
    
   h1,h2,h3,label,.btn {
       line-height: 1.1;
-      font-size: 1em;
+      font-size: 0.8em;
   }
  
   .navbar{

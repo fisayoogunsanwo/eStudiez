@@ -8,7 +8,9 @@ body {
     background-color: #E2E8EB;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: 'Arvo', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0 auto;
     text-align: center;
@@ -18,7 +20,7 @@ h2, h3, h4 {
 
 h2 {
     font-size: 2em;
-    margin:3% auto;
+    margin: 3% auto;
 }
 
 h3 {
@@ -32,13 +34,13 @@ section {
     gap: 3%;
 }
 
-th{
+th {
     font-size: 1.2em;
-    font-weight:700;
+    font-weight: 700;
 }
 
-.logo{
-    display:flex;
+.logo {
+    display: flex;
     justify-content: end;
 }
 
@@ -48,13 +50,14 @@ th{
 }
 
 
-button:hover{
+button:hover {
     background-color: #ff8800;
     box-shadow: 0 0 15px 1px rgba(128, 128, 128, 0.383);
 }
-button:active{
+
+button:active {
     background-color: #07154C;
-    color:#E2E8EB;
+    color: #E2E8EB;
 }
 
 
@@ -67,26 +70,26 @@ button:active{
     align-items: center;
     justify-content: space-around;
     height: 50px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
-.navbar li{
+.navbar li {
     list-style-type: none;
-    padding:1% 1%;
+    padding: 1% 1%;
 }
 
-.navbar a{
+.navbar a {
     color: #dddddd;
     text-decoration: none;
-    
+
 }
 
-.navbar a:hover{
-    color:#FFA33D;
+.navbar a:hover {
+    color: #FFA33D;
 }
 
-.navbar a:active{
-    color:#c47aa5;
+.navbar a:active {
+    color: #c47aa5;
 }
 
 .student-page {
@@ -94,10 +97,10 @@ button:active{
     padding: 5px;
     margin: 0px;
     border-radius: 20px;
- 
+
 }
 
-.flexed{
+.flexed {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,15 +111,15 @@ button:active{
     gap: 3%;
 }
 
-.flexed > h3{
-    width:30%;
+.flexed>h3 {
+    width: 30%;
 }
 
-.dotted-divide{
-    border:0;
+.dotted-divide {
+    border: 0;
     border-bottom: 7px dotted grey;
-    width:5%;
-    margin:2% auto;
+    width: 5%;
+    margin: 2% auto;
 }
 
 /* Student Information Div*/
@@ -130,7 +133,7 @@ button:active{
     width: 40%;
 }
 
-.icon{
+.icon {
     font-size: 150px;
 }
 
@@ -138,6 +141,7 @@ button:active{
 .student-badge {
     color: #F68C13
 }
+
 .term-badge {
     color: #F68C13
 }
@@ -171,13 +175,14 @@ button:active{
 /* Your marks */
 #your-marks {
     background-color: #E2E8EB;
-    border-radius:10px 200px 200px 2px ;
+    border-radius: 10px 200px 200px 2px;
 }
+
 .your-marks-head {
     text-align: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:end
+    justify-content: end
 }
 
 .table {
@@ -188,7 +193,9 @@ button:active{
     background-color: #f8fbfbce;
 }
 
-.active-term-table, .term-1-table, .term-2-table {
+.active-term-table,
+.term-1-table,
+.term-2-table {
     width: 70%;
     margin: 0 auto;
     height: 25vh;
@@ -210,22 +217,26 @@ button:active{
 
 
 /* Academic Progress */
-.sticker-img{
-    width:15%;}
+.sticker-img {
+    width: 15%;
+}
 
-.sticker{
+.sticker {
     text-align: center;
 }
 
 /* Study Resource */
-#study-resources{
-    background-color:#E2E8EB;
-}
-.study-resources-img, .revision-classes-img{
-    width:30%;
+#study-resources {
+    background-color: #E2E8EB;
 }
 
-.study-resources-table, .revision-classes-table{
+.study-resources-img,
+.revision-classes-img {
+    width: 30%;
+}
+
+.study-resources-table,
+.revision-classes-table {
     font-family: sans-serif;
     border-collapse: collapse;
     width: 70%;
@@ -242,7 +253,7 @@ button:active{
 
 .feedback-div {
     text-align: center;
-    margin:0;
+    margin: 0;
 }
 
 .feedback-text {
@@ -250,7 +261,7 @@ button:active{
     font-size: 16px;
     width: 40%;
     border-radius: 20px;
-    padding:10px;
+    padding: 10px;
     font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -266,83 +277,97 @@ button:active{
     padding: 2% 1%;
     margin-top: 1%;
     font-family: 'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
-   
-  
+
+
 }
 
 /* Contact us */
-#contact-us{
+#contact-us {
     text-align: center;
     padding-bottom: 1%;
 }
 
 /* Copyright */
 .base {
-    padding:2%;
-   text-align: center;
+    padding: 2%;
+    text-align: center;
     font-size: 1em;
 }
 
-.helpline{
+.helpline {
     background-color: #b1739a34;
-    color:#07154C;
-    width:12%;
-    border-radius:15px;
+    color: #07154C;
+    width: 12%;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     line-height: 1;
-    padding:0.2%;
+    padding: 0.2%;
     font-weight: bold;
     text-align: center;
-    border-style:dashed;
+    border-style: dashed;
     border-width: 0.5px;
-    border-color:#442b3a;
-    
-}
-.helpline p{
-    margin:1.5%;
+    border-color: #442b3a;
+
 }
 
+.helpline p {
+    margin: 1.5%;
+}
 
 
- /* Media Queries: Tablet View */
- @media only screen and (max-width: 769px) {
-   
-    h1,h2,h3 {
+
+/* Media Queries: Tablet View */
+@media only screen and (max-width: 769px) {
+
+    h1,
+    h2,
+    h3 {
         line-height: 1.1;
         font-size: 1em;
     }
-   
-    .navbar{
+
+    .navbar {
         display: none;
     }
+
     .logo img {
         width: 70px;
         border-radius: 10px;
     }
+
     .icon {
         font-size: 70px;
     }
-    .flexed{
+
+    .flexed {
         display: block;
     }
-    td,th,p,h4,.feedback-submit-btn {
+
+    td,
+    th,
+    p,
+    h4,
+    .feedback-submit-btn {
         font-size: 0.4em;
     }
-    #student-info, #your-marks {
+
+    #student-info,
+    #your-marks {
         background-color: #E2E8EB;
         border-radius: 5px;
     }
-    .flexed{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            gap:10px;
-            margin:0 auto;
-        
+
+    .flexed {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+
     }
-  
+
 }
 
 /* Mobile View */
@@ -351,30 +376,35 @@ button:active{
         line-height: 1.1;
         font-size: 1em;
     }
- .table{
-    width:95%;
- }
- .student-info-table{
-    width:75%;
- }
+
+    .table {
+        width: 95%;
+    }
+
+    .student-info-table {
+        width: 75%;
+    }
 
     .logo img {
         width: 35px;
         border-radius: 5px;
     }
 
-    .inside, .right-main {
+    .inside,
+    .right-main {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        gap:20px;
-        margin:0 auto;
+        gap: 20px;
+        margin: 0 auto;
     }
-    .helpline{
+
+    .helpline {
         display: none;
     }
-    .dotted-divide{
+
+    .dotted-divide {
         border-bottom: 2px dotted grey;
-   
+
     }
 }
