@@ -54,7 +54,7 @@ app.controller('myCtrl',function($scope,$location){
             welcome.innerHTML = "Hello,  "+name+"!";
         }
         else{
-            $scope.infors = "Please enter your name and select your category";
+            $scope.infors = "Please enter your name and select your category!";
             sessionStorage.setItem("key","");
             $scope.name = sessionStorage.getItem("key");
             $location.path("/")
