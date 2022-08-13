@@ -1,3 +1,13 @@
+## Team unbeatable present you with simple estudy porta
+# Team members are 
+1.	Ogunsanwo Fisayo
+2.	Onwudiwe Kenneth
+3.	Okiti OgheneKobiru
+4.	Adegoke Divine
+
+## Method of Installations
+copy this this url https://fisayoogunsanwo.github.io/eStudiez to see the web
+
 # eStudiez
 A Study Portal
 <img width="1439" alt="Screenshot 2022-08-12 at 2 04 48 PM" src="https://user-images.githubusercontent.com/90068822/184457930-8085fc5b-0882-49f5-a803-30146c906f82.png">
@@ -69,5 +79,4 @@ There are several non-functional requirements that should be fulfilled by the We
 	•	Performance: The system should demonstrate high value of performance through speed and throughput. In simple terms, the system should be fast to load and page redirection should be smooth.
 	•	 Capacity: The system should support large number of users. 
 	•	Availability: The system should be available 24/7 with minimum down time. Compatibility: The system should be compatible with latest browsers.
-
 
