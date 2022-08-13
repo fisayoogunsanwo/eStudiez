@@ -10,14 +10,19 @@
 }
 
 fieldset {
-  width: 50%;
-  padding: 2% 5%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap:2%;
+  margin:0 auto;
   background-color: var(--primary);
   color: #07154C;
   border-radius: 20px;
   text-align: left;
+  width: 50%;
+  padding: 2% 5%;
 }
+
 
 label {
   display: block;
@@ -45,6 +50,7 @@ label>input {
   padding: 5px;
   margin: 0px;
   border-radius: 20px;
+ 
 }
 
 body {
@@ -93,20 +99,6 @@ h4 {
   border-radius: 20px;
 }
 
-.teaching, .book{
-  position: absolute;
-  top:70%;
-  left:5%;
-}
-.book{
-  position: absolute;
-  top:100%;
-  left:80%;
-}
-.teaching img{
-  width: 40%;
-}
-
 button:hover {
   background-color: #ff8800;
   box-shadow: 0 0 15px 1px rgba(128, 128, 128, 0.383);
@@ -131,7 +123,8 @@ input {
   color: #E2E8EB;
 }
 
-.one {
+
+.btn {
   width: 30%;
   color: #07154C;
   font-weight: bold;
@@ -176,16 +169,9 @@ input {
   color: #c47aa5;
 }
 
-.student-page {
-  background-color: white;
-  top: 0;
-  left: 0;
-  padding: 5px;
-  margin: 0px;
-  border-radius: 20px;
-}
 
-.flexed {
+
+/* .flexed {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -198,7 +184,7 @@ input {
 
 .flexed>h3 {
   width: 30%;
-}
+} */
 
 .dotted-divide {
   border: 0;
@@ -271,4 +257,88 @@ input {
 
 .helpline p {
   margin: 1.5%;
+}
+
+/* Media Queries: Tablet View */
+@media only screen and (max-width: 769px) {
+   
+  h1,h2,h3,label,.btn {
+      line-height: 1.1;
+      font-size: 1em;
+  }
+ 
+  .navbar{
+      display: none;
+  }
+  .logo img {
+      width: 70px;
+      border-radius: 10px;
+  }
+  
+ 
+  td,th,p,h4,.feedback-submit-btn {
+      font-size: 0.4em;
+  }
+  #student-info, #your-marks {
+      background-color: #E2E8EB;
+      border-radius: 5px;
+  }
+  .flexed{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          gap:10px;
+          margin:0 auto;
+      
+  }
+
+  input {
+    clear: both;
+    width:70%;
+    text-align: center;
+   
+  }
+  .form {
+    font-size: 1em;
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:2%;
+    margin:0 auto;
+    width:80%;
+}
+
+}
+
+/* Mobile View */
+@media only screen and (max-width: 480px) {
+  h1 {
+      line-height: 1.1;
+      font-size: 1em;
+  }
+
+
+  .logo img {
+      width: 35px;
+      border-radius: 5px;
+  }
+
+  fieldset {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap:2%;
+      margin:0 auto;
+      width:80%;
+  }
+  .helpline{
+      display: none;
+  }
+  .dotted-divide{
+      border-bottom: 2px dotted grey;
+ 
+  }
 }
